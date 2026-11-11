@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "AI Video Studio",
+    "slug": "ai-video-studio",
+    "scheme": "aivideostudio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-image-picker"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.personal.aivideostudio"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
